@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+ul > li{
+    display: flex;
+    flex-direction: column;
+   
+}
+ul > li > a{
+    height: 7vh;
+    width: 200px;
+    text-decoration: none;
+    margin: 35px -150px;
+    background-color: rgb(54, 4, 105);
+    box-shadow: 5px 5px 10px black;
+    color: white;
+
+    display: flex;
+    align-items: center;
+
+     /* Smooth transition */
+     transition: margin 0.3s ease-in-out;
+}
+ul > li > a:hover{
+    margin: 35px -10px;
+}
+ul > li > a > span{
+    margin: 40px;
+}
