@@ -31,6 +31,8 @@ div{
         
         top: 0;
         left: calc(100% - 200px);
+
+        transform: rotate(180deg);
     }
     25%{
         /* transform: translateX(200px) translateY(200px);  */
@@ -39,6 +41,8 @@ div{
 
         top: calc(100% - 100px);
         left: calc(100% - 200px);
+
+        transform: rotate(360deg);
     }
     37.5%{
         /* transform: translateX(0) translateY(200px);  */
@@ -47,6 +51,8 @@ div{
 
         top: calc(100% - 100px);
         left: 0;
+
+        transform: rotate(180deg);
     }
     50%{
         /* transform: translateX(0);  */
@@ -55,6 +61,8 @@ div{
 
         top: 0;
         left: 0;
+
+        transform: rotate(360deg);
     }
     62.5%{
         /* transform: translateX(0) translateY(200px);  */
@@ -63,6 +71,8 @@ div{
 
         top: calc(100% - 100px);
         left: 0;
+
+        transform: rotate(180deg);
     }
     75%{
         /* transform: translateX(200px) translateY(200px);  */
@@ -71,6 +81,8 @@ div{
 
         top: calc(100% - 100px);
         left: calc(100% - 200px);
+
+        transform: rotate(360deg);
     }
     87.5%{
         /* transform: translateX(200px); */
@@ -79,6 +91,8 @@ div{
 
         top: 0;
         left: calc(100% - 200px);
+
+        transform: rotate(180deg);
     }
     
 }
