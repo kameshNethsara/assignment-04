@@ -2,7 +2,7 @@ body{
    margin: 0;
 }
 .slider{
-   width: 300vw;
+   width: 400vw;
    height: 100vh;
 
    display: flex;
