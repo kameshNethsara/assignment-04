@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: blue;
+}
+.circle{
+    border-radius: 50%;
+    
+}
+.middle-circle{
+
+   position: absolute;
+   
+    background-color: gray;
+
+    height: 200px;
+    width: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color: white;
+    font-size: 2rem;
+   
+}
+.border-circle{
+    height: 200px;
+    width: 200px;
+    border: 20px solid white;
+    border-top-color: red;
+
+  position: absolute;
+
+   transition: transform 2s ease-in-out;
+
+   
+}
+.border-circle:hover{
+   transform: rotate(360deg);
+}
